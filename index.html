@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Customer Form</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+
+<body>
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+          <h1> Customer Form</h1>
+        </div>
+        <div class="panel-body">
+          <form action="index.php" method="POST">
+            <input type="text" id="id" class="form-control" placeholder="Enter ID" name="id">
+              <input type="text" id="firstname" class="form-control" placeholder="Enter First Name" name="firstname">
+              <input type="text" id="lastname" placeholder="Enter Last Name" class="form-control" name="lastname">
+              <input type="text" placeholder="Enter Email Address" id="email" class="form-control" name="email">
+              <input type="radio" name="status" id="status" value="Active">Active
+              <input type="radio" name="status" id="status"  value="InActive">InActive
+              <br>
+            <input type="submit" name="submit" id="submit" class="btn btn-primary " >
+          </form>
+       </div> 
+     </div>
+   </div>
+ </div>
+</div>
+</body>
+</html>
